@@ -16,7 +16,7 @@
         <h6>Цена <span style="font-size: 25px">{{pharm_data.price}}</span> руб.</h6>
         <button style="background-color: #8068F0; color: #ffffff; border-radius: 30px; height:40px; width:170px; margin-top: 1rem" @click="addToCart" type="button" class="btn">Купить</button>
         <div style="text-align: center">
-          <router-link :to="{name: 'sub'}"><a style="text-decoration: none; font-size: 14px">Добавить в подписку</a></router-link>
+          <button class="btn btn-link" style="text-decoration: none; font-size: 14px" @click="addToCart">Добавить в подписку</button>
         </div>
       </div>
       <hr style="margin-top: 1rem">

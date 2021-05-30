@@ -35,11 +35,11 @@
                   <h6>{{item.price}} руб.</h6>
                   <div class="input-group" style="margin-top: 1rem;">
                     <div class="input-group-prepend">
-                      <button class="btn btn-outline-secondary" type="button" id="button-addon1" style="border-radius: 20px 0px 0px 20px">-</button>
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon1" style="background-color:#E3EBF6; border-color:#B1C2D9 ;border-radius: 20px 0px 0px 20px">-</button>
                     </div>
-                      <input type="text" class="form-control" placeholder="1" aria-label="Example text with button addon" aria-describedby="button-addon1" style="border-radius: 0px 0px 0px 0px; width: 20%">
+                      <input type="text" class="form-control" placeholder="1" aria-label="Example text with button addon" aria-describedby="button-addon1" style="border-color:#B1C2D9 ;border-radius: 0px 0px 0px 0px; width: 20%">
                     <div class="input-group-prepend">
-                      <button class="btn btn-outline-secondary" type="button" id="button-addon1" style="border-radius: 0px 20px 20px 0px">+</button>
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon1" style="background-color:#E3EBF6; border-color:#B1C2D9 ;border-radius: 0px 20px 20px 0px">+</button>
                     </div>
                   </div>
                 </div>
@@ -47,10 +47,10 @@
             </div>
             <div class="card-footer bg-transparent" style="height: 28px">
               <div class="row">
-                <div class="col-sm" style="text-align: center; margin-top:-8px; border: 2px solid #CBD9EC; background-color: #EEF3FF; margin-left:-5px; top:-5px; bottom:-5px;border-radius: 0px 0px 0px 10px">
+                <div class="col-sm" style="text-align: center; margin-top:-8px;color:#6E84A3; border: 2px solid #CBD9EC; background-color: #EEF3FF; margin-left:-5px; top:-5px; bottom:-5px;border-radius: 0px 0px 0px 10px">
                   <a>Пропустить</a>
                 </div>
-                <div class="col-sm" style="text-align: center; margin-top:-8px; border: 2px solid #CBD9EC; background-color: #EEF3FF; margin-right:-5px; top:-5px; bottom:-5px;border-radius: 0px 0px 10px 0px">
+                <div class="col-sm" style="text-align: center; margin-top:-8px;color:#6E84A3; border: 2px solid #CBD9EC; background-color: #EEF3FF; margin-right:-5px; top:-5px; bottom:-5px;border-radius: 0px 0px 10px 0px">
                   <a>Удалить</a>
                 </div>
               </div>
@@ -76,17 +76,18 @@
     <div class="col-4">
       <h6 style="color: #283E59; margin-top: 4rem">Параметры получения</h6>
       <div class="row">
-        <div class="col-2">
-
+        <div class="col-3">
+          <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="background-color: #EDF2F9; width: 100%">
+            1
+          </button>
         </div>
-        <div class="col-10">
+        <div class="col-9">
           <div>
-            <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="background-color: #EDF2F9; width: 100%">
+            <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #EDF2F9; width: 100%">
               Числа каждого месяца
             </button>
-            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-              <a class="dropdown-item" href="#">Dropdown link</a>
-              <a class="dropdown-item" href="#">Dropdown link</a>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="width: 17rem">
+              <a class="dropdown-item" href="#">Первый день недели в месяце</a>
             </div>
           </div>
         </div>
@@ -98,16 +99,40 @@
            </button>
          </div>
          <div class="col-sm">
-           <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="background-color: #EDF2F9; width: 100%">
+           <button id="btnGroupDrop2" type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #EDF2F9; width: 100%">
              9:00-12:00
            </button>
+           <div class="dropdown-menu" aria-labelledby="btnGroupDrop2" style="width: 10rem">
+             <a class="dropdown-item" href="#">12:00-14:00</a>
+           </div>
          </div>
        </div>
-       <div style="display:inline-block; color: #283E59">
-         <strong>Адрес доставки:</strong>
+       <div style="margin-top: 1rem">
+         <div style="display:inline-block; color: #283E59">
+           <strong>Адрес доставки:</strong>
+         </div>
+         <div style="display:inline-block; color: #283E59; margin-left: 1rem">
+           Донская 27
+         </div>
+         <div style="display:inline-block; margin-left: 3.5rem; color: #8068F0;">
+           Изменить
+         </div>
        </div>
-       <div style="display:inline-block; color: #283E59; marginleft: 1rem">
-         Донская 27
+       <div style="margin-top: 3rem">
+         <h6 style="color: #283E59">Настройки платежа</h6>
+         <div class="card" style="border-color: #E4EBF6">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div style="display:inline-block; color: #6E84A3">
+                Ежемесячный платёж
+              </div>
+              <div style="display:inline-block; color: #6E84A3; margin-left: 6rem">
+                1024 руб.
+              </div>
+            </li>
+            <li class="list-group-item" style="color: #6E84A3;">Способ оплаты</li>
+          </ul>
+        </div>
        </div>
     </div>
   </div>
@@ -121,7 +146,7 @@ export default {
     ...mapGetters([
       'CART'
     ])
-  }
+  },
 }
 </script>
 <style>

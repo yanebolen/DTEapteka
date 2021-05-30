@@ -1,6 +1,7 @@
 <template>
   <div id="app" class="container">
-      <div class="nav" style="margin-left: 5rem; margin-right: 5rem; margin-top: 2rem">
+        <router-link :to="{name: 'sub'}"><a style="text-decoration: none; ;color: #6E84A3; margin-left: 60rem">Личный кабинет</a></router-link>
+      <div class="nav" style="margin-left: 5rem; margin-right: 5rem;">
         <div class="inlineLogo">
           <router-link :to="{name: 'main'}">
             <img src="./assets/sber-eapteka-logo.svg" alt="DT EAPTEKA">

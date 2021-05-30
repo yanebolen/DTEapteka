@@ -38,6 +38,7 @@
                   </div>
                   <div style="text-align: center; padding-bottom: 1rem; padding-top: 1rem">
                     <button style="background-color: #8068F0; color: #ffffff; border-radius: 30px; height:50px; width:300px" type="button" class="btn">Оформить заказ</button>
+                    <router-link :to="{name: 'sub'}"><a style="text-decoration: none; color: #6E84A3; margin-top: 1rem">Добавить подписку</a></router-link>
                   </div>
                 </div>
                 <h4 style="color:#333F48; padding-top: 1rem">Скидки</h4>
