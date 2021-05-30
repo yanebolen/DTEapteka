@@ -1,14 +1,13 @@
 <template>
   <div id="app" class="container">
-        <router-link :to="{name: 'sub'}"><a style="text-decoration: none; ;color: #6E84A3; margin-left: 60rem">Личный кабинет</a></router-link>
-      <div class="nav" style="margin-left: 5rem; margin-right: 5rem;">
+      <div class="nav" style="margin-left: 5rem; margin-right: 5rem; margin-top: 2rem">
         <div class="inlineLogo">
           <router-link :to="{name: 'main'}">
             <img src="./assets/sber-eapteka-logo.svg" alt="DT EAPTEKA">
           </router-link>
         </div>
 
-        <div style="margin-left: 28rem">
+        <div style="margin-left: 16rem">
           <div>
             <strong>
               8 495 730 53 00
@@ -33,6 +32,11 @@
         <div style="margin-left: 1rem">
           <router-link :to="{name: 'basket'}">
             <button style="background-color: #8068F0; color: #ffffff; border-radius: 30px; height:50px; width:150px" type="button" class="btn">Корзина</button>
+          </router-link>
+        </div>
+        <div style="margin-left: 1rem">
+          <router-link :to="{name: 'sub'}">
+            <button style="background-color: #FF3399; color: #ffffff; border-radius: 30px; height:50px; width:150px" type="button" class="btn">Личный кабинет</button>
           </router-link>
         </div>
 

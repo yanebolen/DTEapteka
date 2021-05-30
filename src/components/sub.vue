@@ -37,7 +37,7 @@
                     <div class="input-group-prepend">
                       <button class="btn btn-outline-secondary" type="button" id="button-addon1" style="background-color:#E3EBF6; border-color:#B1C2D9 ;border-radius: 20px 0px 0px 20px">-</button>
                     </div>
-                      <input type="text" class="form-control" placeholder="1" aria-label="Example text with button addon" aria-describedby="button-addon1" style="border-color:#B1C2D9 ;border-radius: 0px 0px 0px 0px; width: 20%">
+                      <input type="text" class="form-control" placeholder="1" aria-label="Example text with button addon" aria-describedby="button-addon1" style="text-align:center; border-color:#B1C2D9 ;border-radius: 0px 0px 0px 0px; width: 20%">
                     <div class="input-group-prepend">
                       <button class="btn btn-outline-secondary" type="button" id="button-addon1" style="background-color:#E3EBF6; border-color:#B1C2D9 ;border-radius: 0px 20px 20px 0px">+</button>
                     </div>

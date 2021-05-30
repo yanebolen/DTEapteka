@@ -25,7 +25,7 @@
           <div class="input-group-append">
             <button style="border-radius: 20px 0px 0px 20px; height:41px; background-color:#EEF3FF; color: #333F48; border-color: #EEF3FF;" class="btn btn-outline-secondary" type="button" id="button-addon2">-</button>
           </div>
-          <input style="border-radius: 0px 0px 0px 0px; border-color: #EEF3FF; color: #ffffff; height: 41px;" size="3" type="text" class="form-control" placeholder="1" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <input style="text-align:center; border-radius: 0px 0px 0px 0px; border-color: #EEF3FF; color: #ffffff; height: 41px;" size="3" type="text" class="form-control" placeholder="1" aria-label="Recipient's username" aria-describedby="button-addon2">
           <div class="input-group-append">
             <button style="border-radius: 0px 20px 20px 0px; height:41px; background-color:#EEF3FF; color: #333F48; border-color: #EEF3FF;" class="btn btn-outline-secondary" type="button" id="button-addon2">+</button>
           </div>
